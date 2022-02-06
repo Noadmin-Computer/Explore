@@ -1,0 +1,60 @@
+@media  (max-width:1300px) {
+   body{
+       overflow-x: hidden;
+   }
+    .navbar{
+        margin-left: -10px;
+    }
+    .navbar-nav{
+        margin-left: 0% !important;
+    }
+    .container{
+        margin-left: 0% !important;
+    }
+    .mini-card{
+        margin-top: 70px;
+    }
+    .card{
+        width: 115%;
+        margin-left: -10px;
+    }
+}   
+@media (max-width:1075px) {
+    .card{
+        width: 1000px;
+        margin-left: -40px;
+    }
+    .card-info button{
+        width: 100px;
+    }
+}
+@media (max-width:998px) {
+    .card{
+        display: none;
+    }
+    .mini-card{
+        display: none;
+    }
+    .display-none-element{
+        display: block;
+    }
+    .bg-text h1{
+        display: none;
+    }
+}
+@media (max-width:1067px) {
+    .background img{
+        display: none;
+     }
+}
+@media (max-width:992px){
+    .col-lg-3 img{
+        width: 100%;
+    }
+    
+}
+@media (max-width:502px){
+    .year-info{
+        margin-left: 0;
+    }
+}
